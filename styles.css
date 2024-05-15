@@ -1,0 +1,48 @@
+header {
+    background-color: silver;
+    color: white;
+    padding: 25px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: blue;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #012142;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+body {
+    background-image: url('img/5039684.jpg');
+    background-size: cover;
+    background-position: center;
+}
+body { 
+    color: white;
+    font-size: 25px;
+}
+footer {
+    background-color: silver;
+    padding: 5px;
+    text-align: center;
+    font-size: small;
+}
